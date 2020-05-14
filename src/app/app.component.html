@@ -1,0 +1,17 @@
+<mat-toolbar>
+  <button mat-button (click)="sidenav.toggle()"><mat-icon aria-hidden="false" aria-label="Example home icon">menu</mat-icon></button>
+  <span class="toolbartext">COVID19 LIVE UPDATES</span>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav  #sidenav mode="side" opened> 
+    <mat-nav-list class="navlist">
+      <a mat-list-item routerLink="world" style="display: none;">World</a>
+      <a mat-list-item routerLink="india">India</a>
+      <a mat-list-item routerLink="stateWise">StateWise</a>
+      <a mat-list-item routerLink="tn" style="display: none;">Tamil Nadu</a>
+    </mat-nav-list>     
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <P style="height: 86vh;"><router-outlet></router-outlet></P>
+  </mat-sidenav-content>  
+</mat-sidenav-container>

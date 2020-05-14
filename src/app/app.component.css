@@ -1,0 +1,25 @@
+.example-container {
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+    border: 1px solid #555;
+  }
+  .mat-toolbar{
+      background-color: black;
+      color: blanchedalmond;
+  }
+  .toolbartext{
+      padding-left: 20px;
+  }
+  .mat-drawer {
+    background-color: black;
+    color: blanchedalmond;
+    width: 15%;
+}
+
+.mat-list-base .mat-list-item{
+    color:blanchedalmond ;
+}
+
+
+  

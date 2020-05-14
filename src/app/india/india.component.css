@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+  }
+  .title{
+      height: 10%;
+  }
+  .cards{
+      height: 20%;
+  }
+  .grid{
+      height: 40%;
+  }
